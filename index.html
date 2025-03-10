@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Garau - Limitless Possibilities</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div class="splash">
+        <div class="splash-content">
+            <img src="logo.png" alt="La Garau Logo" class="splash-logo">
+            <div class="splash-text">
+                <!-- <span class="devanagari">ल गरौं !</span> -->
+                <span class="tagline">Let's Create Together</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">
+                <img src="logo.png" alt="La Garau Logo">
+                <span>La Garau</span>
+            </a>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#philosophy" class="nav-link">Philosophy</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#join" class="nav-btn">Join Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">What is there we can't do?</h1>
+            <p class="hero-subtitle"><span class="devanagari">ल गरौं !</span> is a movement focused on impactful projects and limitless possibilities.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Explore Our Plan</a>
+                <a href="#join" class="btn btn-secondary">Join The Movement</a>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>La Garau is a community-driven initiative born from a simple yet powerful idea: <span class="highlight">together, we can accomplish anything</span>. Our name derives from the Nepali phrase "ल गरौं !" which translates to "Let's do it!"</p>
+                    <p>We bring together innovators, creators, and visionaries from diverse backgrounds to collaborate on projects that create meaningful impact in our communities and beyond.</p>
+                </div>
+                <div class="about-values">
+                    <div class="value-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Innovation</h3>
+                        <p>Challenging conventional thinking to find creative solutions</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Collaboration</h3>
+                        <p>Bringing diverse minds together to achieve shared goals</p>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-globe-americas"></i>
+                        <h3>Impact</h3>
+                        <p>Creating positive change that resonates beyond boundaries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section section-alt" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Plan</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background-image: url('project1.jpg')"></div>
+                    <div class="project-content">
+                        <h3>Ghumante Yuwa</h3>
+                        <p>Ghumante Yuwa is a planned initiative to create a gamified scavenger hunt that will engage youth in Kathmandu. 
+                            The goal is to revitalize local tourism through a series of educational challenges and real-world exploration, 
+                            encouraging young people to discover the city’s cultural gems. By gamifying the experience, 
+                            we aim to drive foot traffic to local businesses and promote sustainable tourism. This plan will provide a 
+                            platform for youth to connect with their community, learn about their heritage, 
+                            and contribute to the local economy in a fun and interactive way.</p>
+                        <a href="https://www.ghumanteyuwa.com" class="btn-text">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+            </div>
+            <!------
+            <div class="projects-cta">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section" id="philosophy">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Philosophy</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="philosophy-content">
+                <div class="philosophy-quote">
+                    <blockquote>
+                        "The question isn't 'Can we do it?' but rather 'How will we do it together?'"
+                    </blockquote>
+                </div>
+                <div class="philosophy-text">
+                    <p>At La Garau, we believe in the power of collective action. We embrace challenges as opportunities for growth and innovation. Our approach combines ambitious vision with practical execution, always centered on creating lasting positive impact.</p>
+                    <p>We're guided by these principles:</p>
+                    <ul class="philosophy-list">
+                        <li><span>Inclusivity</span> - Everyone has something valuable to contribute</li>
+                        <li><span>Sustainability</span> - Creating solutions that endure</li>
+                        <li><span>Transparency</span> - Open collaboration and honest communication</li>
+                        <li><span>Adaptability</span> - Evolving with changing needs and circumstances</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-alt" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>lagarauofficial@gmail.com</p>
+                    </div>
+                    <!-- <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Visit Us</h3>
+                        <p>yet to be specified</p>
+                    </div> -->
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <h3>Call Us</h3>
+                        <p>+977 9818445920</p>
+                    </div>
+                    <!-- <div class="contact-social">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="section" id="join">
+        <div class="container">
+            <div class="join-content">
+                <div class="join-text">
+                    <h2>Join The Movement</h2>
+                    <p>Ready to be part of something greater? Whether you're a dreamer, a doer, or somewhere in between, there's a place for you at La Garau.</p>
+                    <a href="join.html" class="btn btn-primary">Get Involved</a>
+                </div>
+                <!-- <div class="newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest updates, events, and opportunities.</p>
+                    <form id="newsletterForm" class="newsletter-form">
+                        <input type="email" placeholder="Your Email Address" required>
+                        <button type="submit" class="btn btn-secondary">Subscribe</button>
+                    </form>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo.png" alt="La Garau Logo" class="bottomlogo">
+                    <div class="footer-tagline">
+                        <span class="devanagari">ल गरौं !</span>
+                        <span>Let's Create Together</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Sitemap</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#philosophy">Philosophy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <!-- <h4>Resources</h4>
+                        <ul>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="resources.html">Downloads</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul> -->
+                    </div>
+                    <!-- <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <li><a href="terms.html">Terms of Service</a></li>
+                            <li><a href="cookies.html">Cookie Policy</a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 La Garau. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> by the ल गरौं ! community.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
