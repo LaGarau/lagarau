@@ -150,7 +150,7 @@ img {
 }
 
 .splash-logo {
-    width: 150 px;
+    width: 80 px;
     animation: expandLogo 2s ease-out forwards;
 }
 
