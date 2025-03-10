@@ -154,7 +154,7 @@ img {
     animation: expandLogo 2s ease-out forwards;
 }
 .toplogo {
-    width: 10%;
+    width: 20%;
 }
 .splash-text {
     display: flex;
