@@ -156,6 +156,7 @@ img {
 
 .top-logo {
     width: 100px !important;
+    left: 5px;
 }
 
 .splash-text {
