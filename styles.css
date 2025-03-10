@@ -153,9 +153,11 @@ img {
     width: 80 px;
     animation: expandLogo 2s ease-out forwards;
 }
+
 .toplogo {
     width: 20%;
 }
+
 .splash-text {
     display: flex;
     flex-direction: column;
