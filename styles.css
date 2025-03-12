@@ -18,7 +18,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+*::selection {
+    background: #cb0a0a92 !important; 
+    color: #000000 !important;
+}
 html {
     scroll-behavior: smooth;
 }
